@@ -1,0 +1,387 @@
+*{
+  padding: 0px;  
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+
+body{
+    height: 100%;
+    background-color:#4fb5d9 ;
+    
+}
+header{ 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: ;
+    font-size: 1em;
+    background-color:#4fb5d9 ;
+    color: aliceblue;
+    height: 5vh;
+    margin: .5em;
+    
+    
+
+}
+
+.nav1{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 15px;
+    border-radius: 10px;
+    
+    
+
+}
+.nav1 li{
+    background-color: rgb(223, 230, 230);
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+.nav1 li:hover{
+    background-color:#3896d0;
+    color: rgb(238, 228, 228);
+    cursor: pointer;
+ 
+    
+
+}
+
+
+footer{
+    display: flex;
+    
+    background-color:#042f75;
+    
+
+    height: 5vh;
+    width: 100%;
+    color: antiquewhite;
+    
+    
+}
+
+.listfooter{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: center;          
+    width: 100%;
+    height: 45rem;
+    background-color: #4fb5d9;
+}
+
+.hijo1{
+    
+    width: 25%;
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.foto{
+    width: 100%;
+    height:auto;
+    
+    
+   
+    
+    
+
+
+}
+
+.foto1{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+
+
+}
+
+.nombre{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombre:hover{
+    font-size: 20px;
+    color: #000b27;
+}
+img{
+    width: 100%;
+
+    z-index: 1;
+}
+
+.hijo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/fondoazul.svg);       
+    width: 100%;
+    color: #cbfffb;
+    font-size: 3rem;
+    
+
+    
+
+}
+
+.cardh2{
+    width: 100%;
+    height: 50%;
+}
+.guitar{
+    width: 15%;
+    height: 15%;
+
+}
+
+
+.contenedor2{
+    background-color:#4fb5d9 ;
+    width: 100%;
+    height: 500px;
+    color:#000103;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 2rem;
+    
+}
+
+.aprendiendo{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.cards{
+    width: 100%; 
+    
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    gap: 2rem;
+
+
+}
+
+.cardhijos{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #4c7c8c;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px rgba(10,95,172, 0.3);
+  
+    
+    
+    
+    
+
+}
+
+.cardhijos:hover{
+    border: 2px solid #cbfffb;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px rgba(10,95,172, 0.3);
+}
+
+.cardhijos div img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardh1{
+    width: 100%;
+    height: 80%;
+
+}
+.cardh2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+
+}
+
+.contenedor3{
+    background-color:#4fb5d9 ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.habilidadesb{
+    width: 30%;
+    height: 100%;
+    border: 2px solid #cbfffb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 15PX;
+}
+
+.habilidadesb:hover{
+    border: 2px solid #cbfffb;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px rgba(10,95,172, 0.3);
+}
+
+.pasatiempos{
+    width: 30%;
+    height: 100%;
+    border: 2px solid #cbfffb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 15PX;
+
+}
+
+.pasatiempos:hover{
+    border: 2px solid #cbfffb;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px rgba(10,95,172, 0.3);
+}
+.contenedor3 ul li{
+    list-style: none;
+    font-size: 30px;
+    color:#042f75;
+
+}
+.contenedor3 P{
+    list-style: none;
+    font-size: 30px;
+    color:#000103;
+
+}
+
+
+.h1datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;       
+}
+
+.hijo2logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 300px;
+}
+
+.h2logos{
+    border:2px solid rgb(14, 15, 15) ;
+    width: 10%;
+    height: 300px;
+}
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 4rem;
+    gap: 2rem;
+    background-color:#4fb5d9 ;
+    border: silver;
+}
+
+.contenedor4 p{
+    color:#000103;
+    font-size: 2rem;
+}
+.contenedor4 label{
+
+    color:#000103;
+    font-size: 1rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(237, 238, 243);
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
+}
+
+.h1datos ul{
+    list-style: none;
+    font-size: 30px;
+
+}
+
+
+.tamañologos{
+    height: 2rem;
+    width: 2rem;
+    
+
+}
+
+.tamañologos:hover{
+
+    height: 3rem;
+    width: 3rem;
+    box-shadow: #4fb5d9;
+    transition: all cubic-bezier (0.55, 0.055, 0.675, 0.19);
+
+
+}
+.redessociales{   
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
